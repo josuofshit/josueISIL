@@ -1,0 +1,427 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+    font-family: "Playfair Display";
+    font-size: 18px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #8d8d8d;
+    font-size: 25px;
+}
+
+.iconos a.facebook:hover i {
+    color: #3b5998; /* Azul de Facebook */
+}
+
+.iconos a.twitter:hover i {
+    color: #ffffff; /* Azul de Twitter */
+}
+
+.iconos a.instagram:hover i {
+    color: #e4405f; /* Rosa de Instagram */
+}
+
+.iconos a.whatsapp:hover i {
+    color: #25d366; /* Verde de WhatsApp */
+}
+
+.iconos a.pinterest:hover i {
+    color: #e60023; /* Rojo de Pinterest */
+}
+
+
+
+
+
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url(../imagen/experiencia-programacion-persona-que-trabaja-codigos-computadora.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    
+}
+
+
+
+
+.contenidouno {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 25px;
+    font-family: 'Lora';
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: #000000 4px 4px;
+    
+    
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    font-family: 'Lora';
+    color: rgb(61, 198, 253);
+    text-shadow: #000000 5px 5px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family: 'Lora';
+    font-size: 20px; 
+    text-align: justify center;
+    color: #ffffff;
+    text-shadow: #000000 0.5px 0.5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    
+
+}
+
+.button {
+    background-color: #00c3ff;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    border-style: groove;
+    
+    
+}
+
+.button:hover {
+    background-color: #00c8ff;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/software-engineer-writes-complex-binary-code-scripts-computer.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 380px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 380px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    
+    margin-top: 150px;
+    margin-bottom: 25px;
+    font-family: 'Lora';
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: #000000 4px 4px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #faf7f7;
+    font-size: 18px;
+}
+.figuras a:hover {
+   
+    color: #00d9ff;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+.galeria {
+    position: relative; 
+    background-image: url(../imagen/IA\ verdadera.jpg);
+    padding: 50px 0;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.galeria::before {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.galeria h2 {
+    position: relative; 
+    z-index: 2; 
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: #000000 2px 2px 2px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.galeria p {
+    position: relative; 
+    z-index: 2; 
+    color: #ffffff;
+    text-shadow: #000000 2px 2px 2px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 5px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative; 
+    z-index: 2; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+.contenidotres .columna {
+    flex: 1;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    align-items: flex-start;
+   
+}
+
+.contenidotres .columna img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+    
+
+}
+
+.contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #00ddff;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.contenidotres .columna a:hover {
+    background-color: #00fff7;
+}
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    margin-top: 0px;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3, p {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a.facebook2:hover i{
+    color: #001aff; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.twitter2:hover i {
+    color: #ffffff; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.instagram2:hover i {
+    color: #f30669; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.linkedin:hover i {
+    color: #00a6ff; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.youtube:hover i {
+    color: #ff0000; /* Cambia esto según el color que desees para el hover */
+}
+
+.social-icons a.telegram:hover i {
+    color: #00c8ff; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+.Josue{
+
+    justify-content: center;
+    text-align: center;
+}
+
+  
